@@ -11,7 +11,7 @@ console.log(url);
 async function conectarBase() {
     try {
        await mongoose.connect(process.env.URI_MONGO)
-        console.log("base de dato ha");
+        console.log("base de datos de virus ha sido actualizada");
         
     } catch (error) {
         console.log(error);

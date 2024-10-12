@@ -11,15 +11,16 @@
     "dataAutos": "node ./models/data/autos.js",
     "dataAni": "node ./models/data/animales.js",
     "dataMotos": "node ./models/data/motos.js"
-
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
-    "mongoose": "^8.7.1"
+    "mongoose": "^8.7.1",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.7"
